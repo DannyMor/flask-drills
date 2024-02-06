@@ -1,8 +1,8 @@
 from flask import Flask
 
 from config import DATABASE_CONNECTION_URI
-from routes.app import api
 from database.db import db
+from routes.api import api
 
 app = Flask(__name__)
 

@@ -1,1 +1,3 @@
-python database/seed_db.py
+rm -rf instance/drill.db
+
+python seed_db.py
